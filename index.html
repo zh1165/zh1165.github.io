@@ -1,2 +1,36 @@
-<img src="./layout--card.jpg"/>
-<h1>hello</h1>
+<!-- video全屏背景 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>爱利利</title>
+	<style type="text/css">
+		*{  
+            margin: 0px;  
+            padding: 0px;  
+        }  
+        video{  
+            position: fixed;  
+            right: 0px;  
+            bottom: 0px;  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto;  
+            /*加滤镜*/  
+            -webkit-filter: grayscale(100%);  
+            filter:grayscale(100%);
+        }  
+        source{  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto;  
+        }  
+	</style>
+</head>
+<body>
+	<video autoplay="autoplay" loop="loop">  
+   	 	<source  src="./4287cea4842333995f3492e4fe8a664d.mp4" type="video/mp4" >;  
+	</video> 
+</body>
